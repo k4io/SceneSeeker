@@ -49,7 +49,12 @@
     <header id="navbar">
         <div class="overlay"></div>
         <div class="container">
-            <!-- NAVBAR -->
+            <!-- NAVBAR
+            
+            Hi guys, Kai here - This block of code encapsulates the top navigation bar on all of the pages.
+            It works in a way that allows the web browser to auto-scroll to different parts of the page that have been declared as an ID (hashtag in front of name).
+            
+            -->
             <nav class="navbar navbar-expand-xl navbar-dark">
                 <a class="navbar-brand" href="#"><img src="assets/img/logo2.png" alt="" style="width: 3.5rem;"></a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -226,6 +231,25 @@
                     <div class="container">
                         <div class="row text-center justify-content-center mb-5">
                         <?php
+
+
+/*
+
+Hi guys, Kai here - This code block is essentially, where the magic happens. At least for our homepage.
+
+I will explain step by step how it works here:
+
+1. Open the database, if it does not exist it will be create and our `CREATE TABLE IF NOT EXISTS` query will be executed. Creating the table if it does not already exist.
+2. We then query the database for all places that have been verified. This is done by using the `WHERE verified = 1` clause in our SQL query. 
+    Verified is default '0' (false) and is set to '1' (true) when a place is verified by an admin.
+3. We then create a Leaflet map and display it on the page. We then loop through each place and add a marker to the map for each place.
+	We also add a popup to each marker with the place name and description.
+    The map will default to the Lat/Long coordinates of: 53.7700981919597, -0.369093418121338 - Which is approximately the University of Hull.
+
+3-1. It may look weird to those who know about HTML but not php but do not fret. We simply have to 'echo' out the html structure that we want once the data has been interpreted by the php code.
+
+*/
+
 try {
     // Create or open the SQLite database
     $db = new PDO('sqlite:places.db');
@@ -370,7 +394,6 @@ try {
         </div>
     </section>
 
-    <!-- CONTACT -->
     <section id="contact">
         <div class="container">
             <div class="row text-center">
@@ -382,9 +405,6 @@ try {
             </div>
         </div>
     </section>
-    <!-- ~CONTACT -->
-
-    <!-- FOOTER -->
 
     <footer>
         <div class="container">
@@ -412,28 +432,13 @@ try {
         <p class="text-center">Copyright 2023-2023 SceneSeeker Team. All rights reserved.</p>
     </footer>
 
-    <!-- ~FOOTER -->
-
-    <!-- BOOTSTRAP JS -->
     <script src="assets/js/bootstrap.js"></script>
-
-    <!-- TYPED JS -->
     <script src="../npm/typed.js%402.0.12"></script>
 
-    <!-- Start AOS -->
     <script>
         AOS.init({
             disable: 'mobile',
             once: true,
-        });
-    </script>
-
-    <script>
-        var typed = new Typed('.span-off', {
-            strings: ['Hello user', 'Take your plan b!', 'A plan b a day keeps camomo away'],
-            loop: true,
-            typeSpeed: 60,
-            backSpeed: 30,
         });
     </script>
 

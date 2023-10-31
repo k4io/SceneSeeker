@@ -1,4 +1,12 @@
 <?php
+
+/*
+
+Hi guys, Kai here - This code block does the same as that inside the homepage, at first, checking and creating the database & tables if needed.
+Then, it takes the data from the form on the inputplace.php page, and inserts it into the database, and redirects the user back to the homepage after 1 second.
+
+*/
+
 try {
     // Create or open the SQLite database
     $db = new PDO('sqlite:places.db');
@@ -40,7 +48,7 @@ try {
 
     echo "Place added successfully!";
     sleep(1);
-    header('location: ss.php');
+    header('location: index.php');
 } catch (PDOException $e) {
     echo "Error: " . $e->getMessage();
 }

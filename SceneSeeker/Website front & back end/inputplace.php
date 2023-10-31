@@ -91,6 +91,14 @@
                     padding-bottom: 8rem;
                     position: relative;">
                     <div class="container">
+
+                    <!--
+                    
+                   Hi guys, Kai here - This code block is essentially the input-form for business owners to input their locations, opening times, names, description etc...
+                   Once all `required` data is input, the form is submitted to `processnewplace.php` which then adds the data to the database.
+
+                    -->
+
                         <div class="row text-center justify-content-center mb-5">
                             <h2 style="color: #fff;">Add a Place</h2>
                             <form method="post" action="processnewplace.php">
@@ -175,6 +183,13 @@
         });
     </script>
 
+<!-- 
+
+Hi guys, Kai here - This code block is what creates our map on the page to input a new location.
+It first generates a map at the base UoH coordinates and zooms in and creates a pin that can be dragged by the user to their desired location.
+Lastly, once a location has been confirmed, the marker will turn purple.
+
+-->
     
 <script>
         var map = L.map('map').setView([53.7700981919597, -0.369093418121338], 15);
@@ -241,15 +256,6 @@
             document.getElementById('latitude').value = lat;
             document.getElementById('longitude').value = lng;
         }
-    </script>
-
-    <script>
-        var typed = new Typed('.span-off', {
-            strings: ['Hello user', 'Take your plan b!', 'A plan b a day keeps camomo away'],
-            loop: true,
-            typeSpeed: 60,
-            backSpeed: 30,
-        });
     </script>
 
     <script>

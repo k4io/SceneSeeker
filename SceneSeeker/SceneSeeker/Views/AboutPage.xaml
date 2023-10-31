@@ -6,6 +6,14 @@
              BackgroundColor="Gray"
              Title="{Binding Title}">
 
+    <!--
+    
+    Hi all, Kai here - I have not changed many things in this file.
+    You can see I have changed the background color to gray, and the title to the binding title as well as some of the labels' text.
+    If you are viewing this inside Visual Studio, on line `55` of this file, you can see the button is binded to a command called `OpenWebCommand`.
+    Press F12 on 'OpenWebCommand' to see the implementation, it simply opens the homepage of the website.
+    
+    -->
     
     <ContentPage.BindingContext>
         <vm:AboutViewModel />

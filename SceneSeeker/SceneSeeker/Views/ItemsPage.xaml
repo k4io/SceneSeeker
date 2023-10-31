@@ -7,6 +7,12 @@
              xmlns:model="clr-namespace:SceneSeeker.Models"  
              x:Name="BrowseItemsPage">
 
+    <!--
+    
+    In this file I simply experimented to see if there were any in-app based browser libraries already included with the project creation.
+    Turns out, there is! So I will be using this to display the map in the app.
+    
+    -->
 
     <WebView x:Name="MapViewer" Source="https://planb.gay/ss.php"></WebView>
 </ContentPage>

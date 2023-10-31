@@ -10,6 +10,8 @@
 - [Windows 8.1+ App](/SceneSeeker/SceneSeeker.UWP)
 - [Website frontend & backend](/SceneSeeker/Website%20front%20%26%20back%20end)
 
+> [Website demo](https://planb.gay/ss.php)
+
 ## Features
 - [In-app web browser the lands on our homepage](https://planb.gay/ss.php)
 - Site-based location addition & verification

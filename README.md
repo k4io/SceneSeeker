@@ -6,7 +6,7 @@
 ## Repository
 - [Main Cross-platform library](/SceneSeeker/SceneSeeker)
 - [Android app](/SceneSeeker/SceneSeeker.Android)
-- [iOS App](SceneSeeker/SceneSeeker.ios)
+- [iOS App](SceneSeeker/SceneSeeker.iOS)
 - [Windows 8.1+ App](/SceneSeeker/SceneSeeker.UWP)
 
 ## Features

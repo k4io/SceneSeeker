@@ -1,7 +1,8 @@
 # SceneSeeker
 ## Team 5 - Website / App prototype
 
-> App is cross-platform between iOS, Android 4.0 - 16.0 & Any windows distribution newer than 8.1
+> App is cross-platform between iOS, Android 4.0 - 16.0 & Any windows distribution newer than 8.1.
+#
 > Website can be viewed perfectly on any device, it is not required but preferred if the viewer has JavaScript enabled.
 
 ## Repository

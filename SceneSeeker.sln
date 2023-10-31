@@ -9,7 +9,26 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneSeeker.Android", "Scen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneSeeker.iOS", "SceneSeeker\SceneSeeker.iOS\SceneSeeker.iOS.csproj", "{A0C53BBC-3259-430E-978E-6588A8DC6032}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneSeeker", "SceneSeeker\SceneSeeker\SceneSeeker.csproj", "{A3125863-B154-4368-BC34-0EEE7A31BB70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SceneSeeker", "SceneSeeker\SceneSeeker\SceneSeeker.csproj", "{A3125863-B154-4368-BC34-0EEE7A31BB70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website front & back end", "Website front & back end", "{D2C17887-F6B8-4C0C-98C4-28402BFBC9AB}"
+	ProjectSection(SolutionItems) = preProject
+		SceneSeeker\Website front & back end\404.html = SceneSeeker\Website front & back end\404.html
+		SceneSeeker\Website front & back end\createmapdb.php = SceneSeeker\Website front & back end\createmapdb.php
+		SceneSeeker\Website front & back end\css2 = SceneSeeker\Website front & back end\css2
+		SceneSeeker\Website front & back end\inputplace.php = SceneSeeker\Website front & back end\inputplace.php
+		SceneSeeker\Website front & back end\mapgen.php = SceneSeeker\Website front & back end\mapgen.php
+		SceneSeeker\Website front & back end\maps.db = SceneSeeker\Website front & back end\maps.db
+		SceneSeeker\Website front & back end\Minecraft.ttf = SceneSeeker\Website front & back end\Minecraft.ttf
+		SceneSeeker\Website front & back end\phpcheck.php = SceneSeeker\Website front & back end\phpcheck.php
+		SceneSeeker\Website front & back end\places.db = SceneSeeker\Website front & back end\places.db
+		SceneSeeker\Website front & back end\processnewplace.php = SceneSeeker\Website front & back end\processnewplace.php
+		SceneSeeker\Website front & back end\ss.php = SceneSeeker\Website front & back end\ss.php
+		SceneSeeker\Website front & back end\tos.html = SceneSeeker\Website front & back end\tos.html
+		SceneSeeker\Website front & back end\uoh.php = SceneSeeker\Website front & back end\uoh.php
+		SceneSeeker\Website front & back end\use.fontawesome.com.zip = SceneSeeker\Website front & back end\use.fontawesome.com.zip
+		SceneSeeker\Website front & back end\verifyplace.php = SceneSeeker\Website front & back end\verifyplace.php
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
